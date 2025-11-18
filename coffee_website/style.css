@@ -1,0 +1,46 @@
+body{
+    background-color: #431a1f;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*nav-bar*/
+
+.nav{
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height:120px;
+    width:60%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    padding-bottom:6px ;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: 0.065rem;
+    gap: 6px;
+    }
+.nav-logo img{
+    height: 55px;
+    width: auto;
+    object-fit: cover;
+    padding-bottom: 4px;
+}
+
+.nav-contents{
+    margin-right: 80px;
+    width: 45%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Salsa",cursive;
+    font-size: 0.9rem;
+    justify-content: space-evenly;
+}
